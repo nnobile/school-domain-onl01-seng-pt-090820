@@ -10,7 +10,7 @@ class School
   def add_student(student_name, grade)
     #check if key already exists
     if @roster[grade]
-       @roster[grade] << student_name  
+       @roster[grade] << student_name
     else
       @roster[grade] = []
       @roster[grade] << student_name
