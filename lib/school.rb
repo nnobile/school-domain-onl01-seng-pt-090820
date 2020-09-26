@@ -15,5 +15,12 @@ class School
       @roster[grade] = []
       @roster[grade] << student_name
   end
+
+  def grade(gradel_level)
+    binding.pry
+  end
+
+
+  
 end
 end
