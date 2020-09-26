@@ -20,6 +20,12 @@ class School
     @roster[grade_level]
   end
 
+  def sort
+    sorted_hash = {}
+    @roster.each do |grade, students|
+      binding.pry
+  end
+
 
 
 end
