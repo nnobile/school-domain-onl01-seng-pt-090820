@@ -1,5 +1,5 @@
 class School
   def initialize(school)
-    school = School.new("Bayside High School")
+    school = School.new()
   end
 end
